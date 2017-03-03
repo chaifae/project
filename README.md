@@ -21,8 +21,7 @@ URL: http://ec2-35-164-186-33.us-west-2.compute.amazonaws.com
 
 * Utilized development instance from Udacity
 * To ssh into instance
-  * chmod 600 ~/.ssh/udacity_key.rsa
-  * ssh -i ~/.ssh/udacity_key.rsa root@35.164.186.33 -p 2200
+  * ssh -i ~/.ssh/grader.rsa grader@35.164.186.33 -p 2200
 * Create user "grader" and gave sudo permission
   * grader password: 12whatever/
 * Update all installed packages
